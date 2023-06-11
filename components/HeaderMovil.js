@@ -42,15 +42,17 @@ function HeaderMovil() {
   };
 
   return (
-    <div className='pt-24 sm:pt-0 md:pt-0 flex justify-center'>
-      <Image
-        style={logoCentrado}
-        width={195}
-        height={43}
-        src={LogoJJ}
-        alt="Juan Jaramillo | Prompt Engineer · Developer · AI and Machine Learning Expert"
-        title="Juan Jaramillo | Prompt Engineer · Developer · AI and Machine Learning Expert"
-      />
+    <div className="pt-24 sm:pt-0 md:pt-0 flex justify-center">
+      <div className="h-auto w-auto visible sm:invisible md:invisible">
+        <Image
+          style={logoCentrado}
+          width={195}
+          height={43}
+          src={LogoJJ}
+          alt="Juan Jaramillo | Prompt Engineer · Developer · AI and Machine Learning Expert"
+          title="Juan Jaramillo | Prompt Engineer · Developer · AI and Machine Learning Expert"
+        />
+      </div>
       <div
         className="z-40 grid place-items-center absolute top-0 pt-2 w-full visible sm:invisible md:invisible lg:invisible xl:invisible 2xl:invisible bg-transparent"
         initial="initial"
