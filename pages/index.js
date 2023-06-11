@@ -13,7 +13,7 @@ export default function Index({ posts, globalData }) {
     <Layout>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
-      <main className="mt-[20%] w-full">
+      <main className="mt-[10%] w-full">
         <h1 className="text-3xl lg:text-5xl text-center">
           {globalData.blogTitle}
         </h1>
@@ -24,7 +24,7 @@ export default function Index({ posts, globalData }) {
           {posts.map((post) => (
             <li
               key={post.filePath}
-              className="md:first:rounded-t-lg md:last:rounded-b-lg backdrop-blur-lg bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-50 transition duration-300 ease-in-out border border-gray-800 dark:border-white hover:dark:border-pink-500 border-b-0 last:border-b hover:border-b hovered-sibling:border-t-0"
+              className="my-3 md:my-3 mx-4 md:mx-0 rounded-2xl md:first:rounded-t-2xl md:last:rounded-b-2xl backdrop-blur-lg bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-50 transition duration-300 ease-in-out border border-gray-800 dark:border-white hover:dark:border-pink-500 hover:border-b hovered-sibling:border"
             >
               <Link
                 as={`/posts/${post.filePath.replace(/\.mdx?$/, '')}`}
@@ -32,7 +32,7 @@ export default function Index({ posts, globalData }) {
               >
                 <a className="py-6 lg:py-10 px-6 lg:px-16 block focus:outline-none focus:ring-4">
                   {post.data.date && (
-                    <p className="uppercase mb-3 font-bold opacity-60">
+                    <p className="dark:text-pink-500 uppercase mb-3 font-bold opacity-60">
                       {post.data.date}
                     </p>
                   )}
