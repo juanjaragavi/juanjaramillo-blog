@@ -19,7 +19,7 @@ function SubFooter() {
     };
 
     return (
-        <footer className="grid place-items-center font-league-spartan text-center text-lg border border-gray-900 dark:border-white rounded-3xl md:m-0 md:pt-5 md:pb-5">
+        <footer className="grid place-items-center font-league-spartan text-center text-lg border border-gray-900 dark:border-white rounded-3xl pt-6 mx-4 md:m-0 md:pt-5 md:pb-5">
         <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row 2xl:flex-row w-full justify-center items-center">
             <Columna style={estiloPrimeraColumna}>
             <h4 className="leading-[1rem] text-gray-900 text-sm sm:text-[1rem] 2xl:text-xl dark:text-white font-medium">
