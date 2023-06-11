@@ -1,3 +1,5 @@
+import SubFooter from './subFooter';
+
 const sunIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +59,7 @@ const ThemeSwitcher = () => {
           document.documentElement.classList.add('dark');
           localStorage.setItem('theme', 'dark');
         }}
-        className="flex items-center h-full pr-2 dark:bg-primary rounded-3xl flex justify-center align-center p-2 w-24 h-10 transition"
+        className="flex items-center pr-2 dark:bg-primary rounded-3xl justify-center align-center p-2 w-24 h-10 transition"
       >
         {moonIcon}
       </button>
@@ -69,7 +71,7 @@ const ThemeSwitcher = () => {
           document.documentElement.classList.remove('dark');
           localStorage.setItem('theme', 'light');
         }}
-        className="flex items-center h-full pr-2 bg-primary dark:bg-transparent rounded-3xl flex justify-center align-center p-2 w-24 h-10 transition"
+        className="flex items-center pr-2 bg-primary dark:bg-transparent rounded-3xl justify-center align-center p-2 w-24 h-10 transition"
       >
         {sunIcon}
       </button>
@@ -77,13 +79,13 @@ const ThemeSwitcher = () => {
   );
 };
 
-export default function Footer({ copyrightText }) {
+export default function Footer() {
   return (
-    <footer className="py-16 flex flex-col items-center">
-      <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
-        {copyrightText}
-      </p>
-      <ThemeSwitcher />
+    <footer className="w-full">
+      <SubFooter />
+      <div className="px-[34%] py-1">
+        <ThemeSwitcher />
+      </div>
     </footer>
   );
 }
