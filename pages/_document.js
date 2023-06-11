@@ -11,6 +11,14 @@ class MyDocument extends Document {
           href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700;900&family=Montserrat:wght@100;300;400;500;700;800&family=Raleway:wght@100;300;400;700;800&display=swap"
           rel="stylesheet"
         ></link>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-13WZEVPR65"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-13WZEVPR65');
+        </script>
         <noscript>
           🇬🇧 Your Browser needs to have JavaScript enabled in order to run this
           Web App. | 🇪🇸 Tu Navegador necesita tener JavaScript activado para
