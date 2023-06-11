@@ -43,7 +43,7 @@ function HeaderMovil() {
 
   return (
     <div className="pt-24 sm:pt-0 md:pt-0 flex justify-center">
-      <div className="h-auto w-auto visible sm:invisible md:invisible">
+      <div className="h-auto w-auto sm:max-h-1 md:max-h-1 visible sm:invisible md:invisible">
         <Image
           style={logoCentrado}
           width={195}
