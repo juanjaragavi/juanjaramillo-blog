@@ -19,7 +19,7 @@ function SubFooter() {
     };
 
     return (
-        <footer className="grid place-items-center font-league-spartan text-center text-lg border border-gray-900 dark:border-white rounded-3xl md:px-3 md:pt-5 md:pb-5">
+        <footer className="grid place-items-center font-league-spartan text-center text-lg border border-gray-900 dark:border-white rounded-3xl md:m-0 md:pt-5 md:pb-5">
         <div className="flex flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row 2xl:flex-row w-full justify-center items-center">
             <Columna style={estiloPrimeraColumna}>
             <h4 className="leading-[1rem] text-gray-900 text-sm sm:text-[1rem] 2xl:text-xl dark:text-white font-medium">
@@ -32,7 +32,7 @@ function SubFooter() {
                 Todos los derechos reservados
             </p>
             </Columna>
-            <div className='basis-1/2 flex flex-col items-center justify-center my-2 sm:mx-2 sm:w-full sm:px-3 pb-2 sm:pt-3 dark:border-white border-l-1 border-0 sm:border-l-2 sm:border-r-0 border-white rounded-none'>
+            <div className='basis-1/2 flex flex-col items-center justify-center my-2 sm:mx-2 sm:w-full sm:px-3 pb-2 sm:pt-3 dark:border-white border-l-1 border-0 sm:border-l-2 sm:border-r-0 border-gray-800 rounded-none'>
             <a
                 href={EmailJJ}
                 onClick={EmailJJ}
