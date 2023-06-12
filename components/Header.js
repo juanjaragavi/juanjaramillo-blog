@@ -1,9 +1,8 @@
 import Nav from './Nav';
 import Link from 'next/link';
-import Image from 'next/image';
 import ThemeSwitcher from './ThemeSwitcher';
 import HeaderMovil from './HeaderMovil';
-import LogoJJ from '../assets/logo-header.png';
+import LogoJJComp from './logoJJ';
 
 function Header() {
   return (
@@ -12,13 +11,7 @@ function Header() {
       <header className="invisible sm:visible md:visible flex flex-row justify-between px-8 pt-5 relative w-screen h-auto z-20">
         <Link href="https://juanjaramillo.tech/" target="_self">
           <a>
-            <Image
-              width={195}
-              height={43}
-              src={LogoJJ}
-              alt="Juan Jaramillo | Prompt Engineer · Developer · AI and Machine Learning Expert"
-              title="Juan Jaramillo | Prompt Engineer · Developer · AI and Machine Learning Expert"
-            />
+            <LogoJJComp />
           </a>
         </Link>
         <Nav />
