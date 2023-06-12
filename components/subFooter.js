@@ -1,8 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
 import Columna from '../components/Columna';
-import LogoJJ from '../assets/logo-header.png';
 
 function SubFooter() {
     const EmailJJ = () => {

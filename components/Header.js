@@ -1,8 +1,8 @@
 import Nav from './Nav';
 import Link from 'next/link';
-import ThemeSwitcher from './ThemeSwitcher';
+import LogoJJComp from './logoJJComp';
 import HeaderMovil from './HeaderMovil';
-import LogoJJComp from './logoJJ';
+import ThemeSwitcher from './ThemeSwitcher';
 
 function Header() {
   return (
@@ -11,7 +11,7 @@ function Header() {
       <header className="invisible sm:visible md:visible flex flex-row justify-between px-8 pt-5 relative w-screen h-auto z-20">
         <Link href="https://juanjaramillo.tech/" target="_self">
           <a>
-            <LogoJJComp />
+          <LogoJJComp />
           </a>
         </Link>
         <Nav />
