@@ -5,7 +5,7 @@ import LogoJJImgDark from '../assets/logo-header-light.png';
 
 function LogoJJComp() {
     return (
-        <div className="ml-[45%] dark:mb-4 sm:m-0 p-0 w-100 flex flex-col dark:flex-col-reverse">
+        <div className="ml-[50%] dark:mb-4 sm:m-0 p-0 w-100 flex flex-col dark:flex-col-reverse">
             <div className="mb-5 dark:mb-0 visible dark:invisible dark:h-0 dark:w-0 mt-0 relative w-44 h-[2.3rem] sm:w-[12rem] sm:h-[2.5rem] 2xl:mr-24">
                 <Image
                 width={195}
