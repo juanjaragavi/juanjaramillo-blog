@@ -5,8 +5,8 @@ import styles from './Layout.module.css';
 export function GradientBackground({ variant, className }) {
   const classes = classNames(
     {
-      [styles.colorBackground]: variant === 'large',
-      [styles.colorBackgroundBottom]: variant === 'small',
+      [styles.darkBackground]: variant === 'dark',
+      [styles.lightBackground]: variant === 'light',
     },
     className
   );

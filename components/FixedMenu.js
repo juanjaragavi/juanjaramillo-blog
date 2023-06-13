@@ -47,7 +47,7 @@ function FixedMenu() {
           </li>
           <li
             onClick={LinkInstagram}
-            className="px-2.5 hover:text-pink-500 transition-all duration-300 ease-in-out -ml-1 mr-3"
+            className="px-2.5 hover:text-pink-500 transition-all duration-300 ease-in-out mt-[0.05em] -ml-1 mr-3"
           >
             <Instagram />
           </li>

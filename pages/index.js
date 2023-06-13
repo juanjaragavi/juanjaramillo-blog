@@ -52,12 +52,12 @@ export default function Index({ posts, globalData }) {
       <FixedMenu />
       <Footer />
       <GradientBackground
-        variant="large"
-        className="fixed top-20 opacity-40 dark:opacity-60"
+        variant="dark"
+        className="fixed top-0 dark:visible invisible"
       />
       <GradientBackground
-        variant="small"
-        className="absolute bottom-0 opacity-20 dark:opacity-10"
+        variant="light"
+        className="fixed top-0 visible dark:invisible"
       />
     </Layout>
   );

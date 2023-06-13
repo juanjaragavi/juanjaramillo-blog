@@ -89,12 +89,12 @@ export default function PostPage({
       <FixedMenu />
       <Footer />
       <GradientBackground
-        variant="large"
-        className="absolute -top-32 opacity-30 dark:opacity-50"
+        variant="dark"
+        className="fixed -top-0"
       />
       <GradientBackground
-        variant="small"
-        className="absolute bottom-0 opacity-20 dark:opacity-10"
+        variant="light"
+        className="absolute bottom-0"
       />
     </Layout>
   );
