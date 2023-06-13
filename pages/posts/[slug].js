@@ -90,11 +90,11 @@ export default function PostPage({
       <Footer />
       <GradientBackground
         variant="dark"
-        className="fixed -top-0"
+        className="fixed top-0 dark:visible invisible"
       />
       <GradientBackground
         variant="light"
-        className="absolute bottom-0"
+        className="fixed top-0 visible dark:invisible"
       />
     </Layout>
   );
