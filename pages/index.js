@@ -50,7 +50,7 @@ export default function Index({ posts, globalData }) {
         </ul>
       </main>
       <FixedMenu />
-      <Footer copyrightText={globalData.footerText} />
+      <Footer />
       <GradientBackground
         variant="large"
         className="fixed top-20 opacity-40 dark:opacity-60"

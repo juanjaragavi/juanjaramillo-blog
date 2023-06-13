@@ -1,4 +1,5 @@
 import { getGlobalData } from '../../utils/global-data';
+import FixedMenu from '../../components/FixedMenu';
 import {
   getNextPostBySlug,
   getPostBySlug,
@@ -85,6 +86,7 @@ export default function PostPage({
           )}
         </div>
       </article>
+      <FixedMenu />
       <Footer />
       <GradientBackground
         variant="large"
