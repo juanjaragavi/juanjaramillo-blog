@@ -1,11 +1,12 @@
 import Link from 'next/link';
-import { getPosts } from '../utils/mdx-utils';
+import SEO from '../components/SEO';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import Layout, { GradientBackground } from '../components/Layout';
+import { getPosts } from '../utils/mdx-utils';
+import FixedMenu from '../components/FixedMenu';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
-import SEO from '../components/SEO';
+import Layout, { GradientBackground } from '../components/Layout';
 
 export default function Index({ posts, globalData }) {
   return (
@@ -48,6 +49,7 @@ export default function Index({ posts, globalData }) {
           ))}
         </ul>
       </main>
+      <FixedMenu />
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
         variant="large"
