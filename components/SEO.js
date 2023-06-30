@@ -8,10 +8,6 @@ function SEO() {
         Juan Jaramillo | Prompt Engineer · Developer · AI and Machine Learning
         Expert
       </title>
-      <link
-        rel="icon"
-        href="https://juanjaramillo.s3.amazonaws.com/assets/favicon.ico"
-      />
       <meta
         name="description"
         content="Juan Jaramillo, an Artificial Intelligence expert with 16+ years of experience, specializes in AI projects, prompt engineering, and digital marketing. Discover how Juan can help your business with cutting-edge AI solutions."
@@ -27,6 +23,11 @@ function SEO() {
       <meta
         property="og:image"
         content="https://juanjaramillo.s3.amazonaws.com/assets/og-image.png"
+      />
+      <link rel="canonical" href="https://blog.juanjaramillo.tech" />
+      <link
+        rel="icon"
+        href="https://juanjaramillo.s3.amazonaws.com/assets/favicon.ico"
       />
       <link
         rel="apple-touch-icon"
