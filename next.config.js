@@ -4,8 +4,8 @@ images: {
     {
         protocol: 'https',
         hostname: 'files.juanjaramillo.tech',
-        port: '',
-        pathname: '',
+        port: '443',
+        pathname: '/',
     },
     ],
 },
