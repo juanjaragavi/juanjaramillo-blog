@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import LogoJJImg from '../assets/logo-header.png';
-import LogoJJImgDark from '../assets/logo-header-light.png';
+import LogoJJImg from '../assets/logo-header.webp';
+import LogoJJImgDark from '../assets/logo-header-light.webp';
 
 function LogoJJComp() {
     return (
