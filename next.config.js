@@ -3,7 +3,7 @@ images: {
     remotePatterns: [
     {
         protocol: 'https',
-        hostname: 'media.juanjaramillo.tech',
+        hostname: 'static.files.juanjaramillo.tech',
         port: '443',
         pathname: '/',
     },
