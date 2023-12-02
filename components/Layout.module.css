@@ -1,5 +1,5 @@
 .darkBackground {
-  background-image: url('https://static.files.juanjaramillo.tech/jjcontainer/fondo-hero-dark-1440.webp');
+  background-image: url('https://juan-jaramillo-ai-assets.s3.amazonaws.com/fondo-hero-dark-1440.webp');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 800px;
@@ -9,7 +9,7 @@
   z-index: -1;
 }
 .lightBackground {
-  background-image: url('https://static.files.juanjaramillo.tech/jjcontainer/fondo-hero-light-1440.webp');
+  background-image: url('https://juan-jaramillo-ai-assets.s3.amazonaws.com/fondo-hero-light-1440.webp');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 800px;

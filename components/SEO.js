@@ -22,16 +22,16 @@ function SEO() {
       />
       <meta
         property="og:image"
-        content="https://static.files.juanjaramillo.tech/jjcontainer/og-image.webp"
+        content="https://juan-jaramillo-ai-assets.s3.amazonaws.com/og-image.webp"
       />
       <link rel="canonical" href="https://blog.juanjaramillo.tech" />
       <link
         rel="icon"
-        href="https://static.files.juanjaramillo.tech/jjcontainer/favicon.ico"
+        href="https://juan-jaramillo-ai-assets.s3.amazonaws.com/favicon.ico"
       />
       <link
         rel="apple-touch-icon"
-        href="https://static.files.juanjaramillo.tech/jjcontainer/logo192.webp"
+        href="https://juan-jaramillo-ai-assets.s3.amazonaws.com/logo192.webp"
       />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     </Head>
