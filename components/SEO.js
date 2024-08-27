@@ -22,16 +22,16 @@ function SEO() {
       />
       <meta
         property="og:image"
-        content="https://media.juanjaramillo.tech/og-image.webp"
+        content="https://media.myparcero.com/og-image.webp"
       />
       <link rel="canonical" href="https://blog.juanjaramillo.tech" />
       <link
         rel="icon"
-        href="https://media.juanjaramillo.tech/favicon.ico"
+        href="https://media.myparcero.com/favicon.ico"
       />
       <link
         rel="apple-touch-icon"
-        href="https://media.juanjaramillo.tech/logo192.webp"
+        href="https://media.myparcero.com/logo192.webp"
       />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     </Head>
