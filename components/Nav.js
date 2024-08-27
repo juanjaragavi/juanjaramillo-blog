@@ -8,7 +8,7 @@ function Nav({ setMoveItems }) {
         window.open('https://juanjaramillo.tech/', '_self');
     };
     const WhatsApp = () => {
-        window.open('https://wa.link/9emctf/', '_self');
+        window.open('https://wa.link/mal08v/', '_self');
     };
 
     return (
